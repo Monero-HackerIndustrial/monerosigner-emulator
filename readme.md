@@ -1,4 +1,4 @@
-# SeedSigner Emulator
+# SeedSigner Emulator (Monero signer fork version)
 > Allows to execute [SeedSigner](https://github.com/SeedSigner) air-gapped hardware wallet in your desktop (windows/linux/mac)
 
 ![](img/ubuntu.png)
