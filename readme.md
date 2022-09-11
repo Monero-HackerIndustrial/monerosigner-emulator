@@ -1,4 +1,8 @@
 # SeedSigner Emulator (Monero signer fork version)
+
+## This is a fork of the original emulator created by [@EnteroPositivo](https://twitter.com/enteropositivo). The fork is meant to constain any changes made to the new project.
+
+
 > Allows to execute [SeedSigner](https://github.com/SeedSigner) air-gapped hardware wallet in your desktop (windows/linux/mac)
 
 ![](img/ubuntu.png)
@@ -28,11 +32,11 @@ cd seedsigner/src
 
 _Option 1_
 
-Download the contents from this respository [Seedsigner emulator (.zip)](https://github.com/enteropositivo/seedsigner-emulator/archive/refs/heads/master.zip) and merge the contents of the folder 
+Download the contents from this respository [Seedsigner emulator (.zip)](https://github.com/enteropositivo/seedsigner-emulator/archive/refs/heads/master.zip) and merge the contents of the folder
 
 ![](img/tree_content.png)
 
-with the existing **seedsigner** content you cloned in step 1. 
+with the existing **seedsigner** content you cloned in step 1.
 
 
 **OR**
@@ -104,9 +108,9 @@ pip3 install ...
 
 
 ## :lock: Security tips
-- **Don't use it for real transactions** 
+- **Don't use it for real transactions**
 - This emulator is made for testing Seedsigner source code on your desktop.   
-- You can modify or contribute to seedsigner without the need to upload the code to a  Raspberry Pi Zero each time 
+- You can modify or contribute to seedsigner without the need to upload the code to a  Raspberry Pi Zero each time
 
 
 
@@ -117,12 +121,12 @@ pip3 install ...
 - [x] Allow desktop webcam
 - [ ] Test command to make a **one file** standalone executable
 - [ ] Fix reading QR from desktop webcam
- 
+
 
 
 ## :coffee: Buy me a Coffe
 
-I can work faster and more motivated if you help me with a donation 
+I can work faster and more motivated if you help me with a donation
 
 **bc1q554p5jqgdhle07cnc5cm6v6nu7ux9ztem8dggc**
 
@@ -130,5 +134,3 @@ I can work faster and more motivated if you help me with a donation
 ## Contact
 
 Follow me at Twitter – [@EnteroPositivo](https://twitter.com/enteropositivo)  
-
-
