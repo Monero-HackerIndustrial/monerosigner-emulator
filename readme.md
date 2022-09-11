@@ -6,6 +6,8 @@
 > Allows to execute [SeedSigner](https://github.com/SeedSigner) air-gapped hardware wallet in your desktop (windows/linux/mac)
 
 ![](img/ubuntu.png)
+![](img/moneroSigner1.png)
+![](img/moneroSigner2.png)
 
 
 ## How it works
@@ -52,17 +54,18 @@ rsync -a seedsigner-emulator/seedsigner ./
 
 
 **3-** Install the following requeriments:
+(I am working on freezing these requirements into one repo/in my org to prevent supply chain risk)
 
 ```sh
 python3 -m pip install --upgrade Pillow
 python3 -m pip install --upgrade setuptools
 sudo apt-get install python3-tk
 sudo apt install libzbar0
-pip3 install git+https://github.com/jreesun/urtypes.git@e0d0db277ec2339650343eaf7b220fffb9233241
+pip3 install https://github.com/selfcustody/urtypes/archive/refs/tags/v0.1.0.tar.gz
 pip3 install -e https://github.com/enteropositivo/pyzbar.git@a52ff0b2e8ff714ba53bbf6461c89d672a304411#egg=pyzbar
 pip3 install embit dataclasses qrcode tk opencv-python
+sudo apt-get install python3-pil python3-pil.imagetk
 ```
-
 **4-** Launch the emulator
 ```sh
 python3 main.py
