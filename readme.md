@@ -56,6 +56,9 @@ rsync -a seedsigner-emulator/seedsigner ./
 **3-** Install the following requeriments:
 (I am working on freezing these requirements into one repo/in my org to prevent supply chain risk)
 
+The pyzbar fork is the one used by seedsigner. It is a fork of the original package since the original package
+does not allow for bytes instead of strings on binary encoded data. 
+
 ```sh
 python3 -m pip install --upgrade Pillow
 python3 -m pip install --upgrade setuptools
