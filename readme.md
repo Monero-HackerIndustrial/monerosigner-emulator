@@ -61,8 +61,8 @@ python3 -m pip install --upgrade Pillow
 python3 -m pip install --upgrade setuptools
 sudo apt-get install python3-tk
 sudo apt install libzbar0
-pip3 install https://github.com/selfcustody/urtypes/archive/refs/tags/v0.1.0.tar.gz
-pip3 install -e https://github.com/enteropositivo/pyzbar.git@a52ff0b2e8ff714ba53bbf6461c89d672a304411#egg=pyzbar
+python3 -m pip install -e git+https://github.com/jreesun/urtypes.git@e0d0db277ec2339650343eaf7b220fffb9233241
+python3 -m pip install -e https://github.com/seedsigner/pyzbar.git@c3c237821c6a20b17953efe59b90df0b514a1c03#egg=pyzbar
 pip3 install embit dataclasses qrcode tk opencv-python
 sudo apt-get install python3-pil python3-pil.imagetk
 ```
