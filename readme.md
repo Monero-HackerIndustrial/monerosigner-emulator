@@ -130,13 +130,7 @@ pip3 install ...
 
 
 
-## :coffee: Buy me a Coffe
-
-I can work faster and more motivated if you help me with a donation
-
-**bc1q554p5jqgdhle07cnc5cm6v6nu7ux9ztem8dggc**
-
 
 ## Contact
 
-Follow me at Twitter – [@EnteroPositivo](https://twitter.com/enteropositivo)  
+Follow me at Twitter – [@HackIndustrial](https://twitter.com/HackIndustrial)
