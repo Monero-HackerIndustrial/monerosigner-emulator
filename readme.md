@@ -133,4 +133,4 @@ pip3 install ...
 
 ## Contact
 
-Follow me at Twitter – [@HackIndustrial](https://twitter.com/HackIndustrial)
+Follow me on Twitter – [@HackIndustrial](https://twitter.com/MoneroSigner)
